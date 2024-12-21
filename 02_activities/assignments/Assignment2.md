@@ -55,6 +55,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 ```
 Your answer...
+The first way to do it could be to overwrite the customer's address in the table -- this is Type 1.
+The second way to do it could be to keep a history of all addresses for each customer, by adding in a new record for each address update - this is a type 2 slowly changing dimension.
 ```
 
 ***
